@@ -24,7 +24,7 @@ export default function Hero() {
           alt="De onde a gente vem importa"
           width={400}
           height={400}
-          className="w-[clamp(155px,30vw,290px)] h-auto"
+          className="w-[clamp(140px,30vw,290px)] h-auto"
         />
       </div>
 
