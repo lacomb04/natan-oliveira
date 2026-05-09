@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+/* Fontes locais */
+@font-face {
+  font-family: "Genty Sans";
+  src: url("/fonts/genty-sans-regular.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Tokens de design */
+@theme {
+  /* Cores */
+  --color-brand-blue: #0948b2;
+  --color-brand-blue-dark: #0e00ff;
+  --color-brand-yellow: #ffd821;
+  --color-neutral-white: #ffffff;
+  --color-neutral-gray: #f5f5f5;
+
+  /* Fontes */
+  --font-sans:
+    "Genty Sans", var(--font-nunito), system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans";
+  --font-heading: "Genty Sans", system-ui, -apple-system, "Segoe UI", Roboto;
+  --font-body:
+    var(--font-nunito), system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial;
+
+  /* Tipografia */
+  --font-size-title: 2.25rem;
+  --font-size-subtitle: 1.5rem;
+  --font-size-body: 1rem;
+
+  /* Espaçamentos */
+  --spacing-small: 0.5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 2rem;
+  --spacing-section: 4rem;
+  --spacing-section-small: 2rem;
+}
+
+/* Base global */
+@layer base {
+  body {
+    font-family: var(--font-body);
+    font-weight: 400;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+  }
+
+  h1 {
+    font-size: var(--font-size-title);
+  }
+  h2 {
+    font-size: var(--font-size-subtitle);
+  }
+  p {
+    font-size: var(--font-size-body);
+  }
+}
+
+/* Componentes globais */
+@layer components {
+  .btn {
+    @apply rounded bg-brand-yellow px-4 py-2 font-bold uppercase tracking-wide text-brand-blue transition duration-300 ease-in-out hover:bg-brand-blue hover:text-neutral-white;
+  }
+}
