@@ -18,13 +18,13 @@ export default function Hero() {
       </div>
 
       {/* Slogan */}
-      <div className="absolute z-20 left-[14%] top-[22%] sm:left-[18%] sm:top-[20%] md:left-[18%] md:top-[20%] lg:left-[20%] lg:top-[22%] xl:left-[22%] xl:top-[20%]">
+      <div className="absolute z-20 left-[14%] top-[24%] sm:left-[18%] sm:top-[20%] md:left-[18%] md:top-[20%] lg:left-[20%] lg:top-[22%] xl:left-[22%] xl:top-[20%]">
         <Image
           src="/images/deOndeAGenteVem.png"
           alt="De onde a gente vem importa"
           width={400}
           height={400}
-          className="w-[clamp(140px,30vw,290px)] h-auto"
+          className="w-[clamp(130px,30vw,290px)] h-auto"
         />
       </div>
 
