@@ -4,10 +4,10 @@ export default function Historia() {
   return (
     <section
       id="historia"
-      className="min-h-screen bg-brand-blue text-neutral-white"
+      className="section min-h-[50vh] bg-brand-blue text-neutral-white"
     >
-      <div className="mx-auto flex w-full max-w-6xl flex-col items-center gap-8 px-4 py-12 md:px-6 md:py-16 lg:flex-row lg:items-start lg:justify-between">
-        <div className="flex w-full max-w-[680px] flex-col items-center gap-4 text-center lg:items-center">
+      <div className="section-inner flex flex-col items-center gap-8 lg:flex-row lg:items-start lg:justify-between">
+        <div className="flex w-full max-w-[680px] flex-col items-center gap-4 text-center">
           <Image
             src="/images/conhecaMinhaHistoriaTitle.png"
             alt="Conheca minha historia"
@@ -16,17 +16,11 @@ export default function Historia() {
             className="h-auto w-full max-w-[520px]"
           />
 
-          <h2
-            className="text-[clamp(18px,3vw,22px)] font-semibold"
-            style={{ fontFamily: "var(--font-heading)" }}
-          >
+          <h2 className="text-subtitle font-semibold font-heading">
             Minha historia comeca como a de muita gente.
           </h2>
 
-          <p
-            className="text-[clamp(14px,2.2vw,16px)] leading-relaxed text-neutral-white/90"
-            style={{ fontFamily: "var(--font-body)" }}
-          >
+          <p className="text-body text-neutral-white/90 font-body">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras magna
             lectus, varius suscipit mattis eu, tincidunt vitae mauris. Duis
             vulputate ipsum orci, nec efficitur felis malesuada non. Etiam nibh

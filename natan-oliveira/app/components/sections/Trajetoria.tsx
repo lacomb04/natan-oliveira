@@ -4,8 +4,8 @@ export default function Trajetoria() {
   const youtubeId = "69RdQFDuYPI";
 
   return (
-    <section id="trajetoria" className="min-h-[50vh] bg-brand-yellow">
-      <div className="mx-auto flex w-full max-w-6xl flex-col gap-6 px-4 py-12 md:px-6 md:py-16">
+    <section id="trajetoria" className="section min-h-[50vh] bg-brand-yellow">
+      <div className="section-inner flex flex-col gap-6">
         <div className="flex w-full justify-center">
           <Image
             src="/images/MinhaTragetoria.png"
@@ -36,10 +36,7 @@ export default function Trajetoria() {
             </div>
           </div>
 
-          <p
-            className="text-[clamp(14px,2.4vw,16px)] font-semibold text-brand-blue"
-            style={{ fontFamily: "var(--font-heading)" }}
-          >
+          <p className="text-body font-semibold text-brand-blue font-heading">
             Video da minha trajetoria
           </p>
         </div>

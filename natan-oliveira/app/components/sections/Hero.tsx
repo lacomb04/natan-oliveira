@@ -1,7 +1,32 @@
+"use client";
+
 import Image from "next/image";
+import { useEffect, useState } from "react";
 import HeroNav from "../ui/HeroNav";
 
 export default function Hero() {
+  const [parallaxOffset, setParallaxOffset] = useState(0);
+
+  useEffect(() => {
+    let rafId = 0;
+
+    const handleScroll = () => {
+      if (rafId) return;
+      rafId = window.requestAnimationFrame(() => {
+        setParallaxOffset(window.scrollY * 0.2);
+        rafId = 0;
+      });
+    };
+
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      if (rafId) window.cancelAnimationFrame(rafId);
+    };
+  }, []);
+
   return (
     <section className="relative flex overflow-visible h-screen sm:h-auto">
       <HeroNav />
@@ -48,34 +73,36 @@ export default function Hero() {
       </div>
 
       {/* Imagem principal */}
-      <div className="relative h-screen w-full overflow-hidden  lg:h-[60vh] lg:h-[70vh]">
-        {/* MOBILE */}
-        <Image
-          src="/images/natan-hero-mobile.jpg"
-          alt="Natan Oliveira"
-          fill
-          className="object-cover scale-160  lg:hidden"
-          priority
-        />
+      <div className="relative h-screen w-full overflow-hidden  lg:h-[60vh] lg:h-[80vh]">
+        <div
+          className="absolute inset-0"
+          style={{ transform: `translateY(${parallaxOffset}px)` }}
+        >
+          {/* MOBILE */}
+          <Image
+            src="/images/natan-hero-mobile.jpg"
+            alt="Natan Oliveira"
+            fill
+            className="object-cover scale-160  lg:hidden"
+            priority
+          />
 
-        {/* DESKTOP */}
-        <Image
-          src="/images/natan-hero.png"
-          alt="Natan Oliveira"
-          fill
-          className="hidden object-cover lg:block"
-          priority
-        />
+          {/* DESKTOP */}
+          <Image
+            src="/images/natan-hero.png"
+            alt="Natan Oliveira"
+            fill
+            className="hidden object-cover  lg:block"
+            priority
+          />
+        </div>
 
         <div className="absolute inset-0 bg-linear-to-b from-black/20 via-black/15 to-transparent" />
 
         <div className="absolute inset-x-0 bottom-0 h-[35%] bg-linear-to-t from-black/80 via-black/25 to-transparent" />
       </div>
       {/* Texto rodapé */}
-      <p
-        className="absolute bottom-6 left-1/2 -translate-x-1/2 w-[90%] text-center text-[clamp(14px,1.2vw,15px)] font-semibold tracking-wide text-white"
-        style={{ fontFamily: "var(--font-heading)" }}
-      >
+      <p className="text-caption font-heading absolute bottom-6 left-1/2 w-[90%] -translate-x-1/2 text-center font-semibold tracking-wide text-white">
         Professor, bibliotecario, vereador de Nova Serrana/MG e pre-candidato a
         deputado estadual por Minas Gerais.
       </p>
