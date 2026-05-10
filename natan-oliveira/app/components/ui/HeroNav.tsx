@@ -43,7 +43,7 @@ export default function HeroNav() {
             target="_blank"
           >
             <img
-              src="https://cdn.simpleicons.org/tiktok/ffffff"
+              src="/icons/tiktok.svg"
               alt="TikTok"
               className="h-4 w-4 sm:h-5 sm:w-5"
               loading="lazy"
@@ -57,7 +57,7 @@ export default function HeroNav() {
             target="_blank"
           >
             <img
-              src="https://cdn.simpleicons.org/youtube/ffffff"
+              src="/icons/youtube.svg"
               alt="YouTube"
               className="h-4 w-4 sm:h-5 sm:w-5"
               loading="lazy"
@@ -71,7 +71,7 @@ export default function HeroNav() {
             target="_blank"
           >
             <img
-              src="https://cdn.simpleicons.org/whatsapp/ffffff"
+              src="/icons/whatsapp.png"
               alt="WhatsApp"
               className="h-4 w-4 sm:h-5 sm:w-5"
               loading="lazy"
