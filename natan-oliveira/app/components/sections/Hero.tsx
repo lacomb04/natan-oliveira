@@ -1,21 +1,36 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import HeroNav from "../ui/HeroNav";
 
 export default function Hero() {
   const [parallaxOffset, setParallaxOffset] = useState(0);
+  const currentOffsetRef = useRef(0);
+  const targetOffsetRef = useRef(0);
+  const rafIdRef = useRef<number | null>(null);
 
   useEffect(() => {
-    let rafId = 0;
+    const animate = () => {
+      const current = currentOffsetRef.current;
+      const target = targetOffsetRef.current;
+      const next = current + (target - current) * 0.08;
+
+      currentOffsetRef.current = next;
+      setParallaxOffset(next);
+
+      if (Math.abs(target - next) > 0.1) {
+        rafIdRef.current = window.requestAnimationFrame(animate);
+      } else {
+        rafIdRef.current = null;
+      }
+    };
 
     const handleScroll = () => {
-      if (rafId) return;
-      rafId = window.requestAnimationFrame(() => {
-        setParallaxOffset(window.scrollY * 0.2);
-        rafId = 0;
-      });
+      targetOffsetRef.current = window.scrollY * 0.12;
+      if (rafIdRef.current === null) {
+        rafIdRef.current = window.requestAnimationFrame(animate);
+      }
     };
 
     handleScroll();
@@ -23,7 +38,9 @@ export default function Hero() {
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
-      if (rafId) window.cancelAnimationFrame(rafId);
+      if (rafIdRef.current !== null) {
+        window.cancelAnimationFrame(rafIdRef.current);
+      }
     };
   }, []);
 
@@ -75,7 +92,7 @@ export default function Hero() {
       {/* Imagem principal */}
       <div className="relative h-screen w-full overflow-hidden  lg:h-[60vh] lg:h-[80vh]">
         <div
-          className="absolute inset-0"
+          className="absolute inset-0 will-change-transform"
           style={{ transform: `translateY(${parallaxOffset}px)` }}
         >
           {/* MOBILE */}
