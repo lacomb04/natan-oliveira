@@ -2,7 +2,10 @@ import Image from "next/image";
 
 export default function Historia() {
   return (
-    <section id="historia" className="bg-brand-blue text-neutral-white">
+    <section
+      id="historia"
+      className="min-h-screen bg-brand-blue text-neutral-white"
+    >
       <div className="mx-auto flex w-full max-w-6xl flex-col items-center gap-8 px-4 py-12 md:px-6 md:py-16 lg:flex-row lg:items-start lg:justify-between">
         <div className="flex w-full max-w-[680px] flex-col items-center gap-4 text-center lg:items-center">
           <Image
