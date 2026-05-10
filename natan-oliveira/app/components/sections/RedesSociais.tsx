@@ -7,18 +7,30 @@ type SocialPost = {
 };
 
 const posts: SocialPost[] = [
-  { id: 1, title: "Postagem 1" },
-  { id: 2, title: "Postagem 2" },
-  { id: 3, title: "Postagem 3" },
+  {
+    id: 1,
+    title: "Postagem Instagram",
+    embedUrl: "https://www.instagram.com/p/DYDn41Ikdq8/embed",
+  },
+  {
+    id: 2,
+    title: "Postagem Instagram",
+    embedUrl: "https://www.instagram.com/p/DW9ETyakfab/embed",
+  },
+  {
+    id: 3,
+    title: "Postagem Instagram",
+    embedUrl: "https://www.instagram.com/p/DYHfQXIEXuS/embed",
+  },
 ];
 
 export default function RedesSociais() {
   return (
     <section
       id="redes-sociais"
-      className="min-h-screen bg-neutral-white text-brand-blue"
+      className="section min-h-[50vh] bg-neutral-white pt-20 text-brand-blue md:pt-20"
     >
-      <div className="mx-auto flex w-full max-w-6xl flex-col items-center gap-6 px-4 py-12 md:px-6 md:py-16">
+      <div className="section-inner flex flex-col items-center gap-6">
         <Image
           src="/images/RedesSociaisTitle.png"
           alt="Minhas redes sociais"
@@ -33,7 +45,7 @@ export default function RedesSociais() {
               key={post.id}
               className="flex flex-col gap-3 rounded-2xl border border-neutral-gray bg-white p-4 shadow-sm"
             >
-              <div className="aspect-[4/3] w-full overflow-hidden rounded-xl bg-neutral-gray">
+              <div className="h-[600px] w-full overflow-hidden rounded-xl bg-neutral-gray">
                 {post.embedUrl ? (
                   <iframe
                     className="h-full w-full"
@@ -44,17 +56,14 @@ export default function RedesSociais() {
                   />
                 ) : (
                   <div className="flex h-full w-full items-center justify-center text-brand-blue/40">
-                    <span style={{ fontFamily: "var(--font-body)" }}>
+                    <span className="text-caption font-body">
                       Embed do post
                     </span>
                   </div>
                 )}
               </div>
 
-              <p
-                className="text-sm font-semibold"
-                style={{ fontFamily: "var(--font-body)" }}
-              >
+              <p className="text-caption font-semibold font-body">
                 {post.title}
               </p>
             </div>

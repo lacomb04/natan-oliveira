@@ -1,20 +1,33 @@
+"use client";
+
+const handleNavClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
+  const href = event.currentTarget.getAttribute("href");
+
+  if (!href || !href.startsWith("#")) return;
+
+  const target = document.querySelector(href);
+  if (!target) return;
+
+  event.preventDefault();
+  target.scrollIntoView({ behavior: "smooth", block: "start" });
+};
+
 export default function HeroNav() {
   return (
     <nav className="absolute left-1/2 top-10 z-40 w-[min(94vw,1100px)] -translate-x-1/2 text-white sm:top-20 md:top-5">
-      <div
-        className="flex flex-col items-center gap-2 text-center md:flex-row md:justify-between sm:text-left md:gap-3"
-        style={{ fontFamily: "var(--font-heading)" }}
-      >
-        <div className="flex flex-wrap items-center justify-center gap-5 text-[clamp(13px,1.6vw,14px)] font-semibold uppercase tracking-wide text-white   transition-all duration-300  sm:justify-start md:gap-20 lg:gap-50 md:text-[clamp(12px,1.5vw,15px)]">
+      <div className="flex flex-col items-center gap-2 text-center font-heading md:flex-row md:justify-between md:gap-3 sm:text-left">
+        <div className="text-caption flex flex-wrap items-center justify-center gap-5 font-semibold uppercase tracking-wide text-white transition-all duration-300 sm:justify-start md:gap-20">
           <a
             className="transition-colors hover:text-brand-yellow"
             href="#historia"
+            onClick={handleNavClick}
           >
             Conheca minha historia
           </a>
           <a
             className="transition-colors hover:text-brand-yellow"
             href="#manifesto"
+            onClick={handleNavClick}
           >
             Leia o manifesto
           </a>
