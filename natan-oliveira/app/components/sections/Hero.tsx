@@ -102,8 +102,8 @@ export default function Hero() {
           Professor, bibliotecario e vereador de Nova Serrana/MG.
         </p>
 
-        <a className="btn mt-3 text-xs sm:text-sm" href="#manifesto">
-          Conheça minhas propostas
+        <a className="btn mt-3 text-xs sm:text-sm" href="#trajetoria">
+          Conheça minha Tragetória
         </a>
       </div>
 
