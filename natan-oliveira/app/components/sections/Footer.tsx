@@ -2,6 +2,12 @@ import Image from "next/image";
 
 const socials = [
   {
+    name: "Instagram",
+    href: "#",
+    icon: "https://cdn.simpleicons.org/instagram/ffffff",
+    isExternalIcon: true,
+  },
+  {
     name: "WhatsApp",
     href: "#",
     icon: "/icons/whatsapp.png",
@@ -47,13 +53,24 @@ export default function Footer() {
                 className="flex items-center gap-2 rounded-full border border-neutral-white/20 px-3 py-2 text-caption font-semibold text-neutral-white transition hover:bg-neutral-white/10"
                 aria-label={social.name}
               >
-                <Image
-                  src={social.icon}
-                  alt=""
-                  width={20}
-                  height={20}
-                  className="h-5 w-5"
-                />
+                {social.isExternalIcon ? (
+                  <img
+                    src={social.icon}
+                    alt=""
+                    width={20}
+                    height={20}
+                    className="h-5 w-5"
+                    loading="lazy"
+                  />
+                ) : (
+                  <Image
+                    src={social.icon}
+                    alt=""
+                    width={20}
+                    height={20}
+                    className="h-5 w-5"
+                  />
+                )}
                 {social.name}
               </a>
             ))}
