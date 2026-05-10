@@ -30,7 +30,7 @@ export default function RedesSociais() {
       id="redes-sociais"
       className="section min-h-[50vh] bg-neutral-white pt-20 text-brand-blue md:pt-20"
     >
-      <div className="section-inner flex flex-col items-center gap-6">
+      <div className="section-inner flex flex-col items-center gap-6 [@media(max-height:500px)]:pt-20">
         <Image
           src="/images/RedesSociaisTitle.png"
           alt="Minhas redes sociais"
