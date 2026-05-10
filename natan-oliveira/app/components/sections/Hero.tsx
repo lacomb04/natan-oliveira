@@ -21,9 +21,9 @@ export default function Hero() {
 
       <div
         className="absolute z-20 flex flex-col items-center
-  left-1/2 -translate-x-1/2 bottom-[12%]
+  left-1/2 -translate-x-1/2 bottom-[14%]
 
-  sm:left-[30%] sm:translate-x-0 sm:bottom-[14%]
+  sm:left-[30%] sm:translate-x-0 sm:bottom-[16%]
   md:left-[32%] md:bottom-[16%]
   lg:left-[20%] lg:top-[22%] lg:bottom-auto
   xl:left-[22%] xl:top-[20%]"
