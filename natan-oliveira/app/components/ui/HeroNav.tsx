@@ -16,7 +16,7 @@ export default function HeroNav() {
   return (
     <nav className="absolute left-1/2 top-6 z-40 w-[min(92vw,1100px)] -translate-x-1/2 text-white sm:top-20 md:top-5">
       <div className="flex flex-col items-center gap-2 text-center font-heading md:flex-row md:justify-between md:gap-3 sm:text-left">
-        <div className="flex flex-wrap items-center justify-center gap-3 text-[11px] font-semibold uppercase tracking-wide text-white transition-all duration-300 sm:justify-start sm:gap-8 sm:text-caption">
+        <div className="hero-landscape-nav-links-hidden flex flex-wrap items-center justify-center gap-3 text-[11px] font-semibold uppercase tracking-wide text-white transition-all duration-300 sm:justify-start sm:gap-8 sm:text-caption">
           <a
             className="rounded-full border border-white/40 px-3 py-1 transition-colors hover:border-brand-yellow hover:text-brand-yellow sm:border-transparent sm:px-0 sm:py-0"
             href="#historia"
