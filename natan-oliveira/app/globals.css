@@ -111,14 +111,4 @@
   .btn {
     @apply rounded bg-brand-yellow px-4 py-2 font-bold uppercase tracking-wide text-brand-blue transition duration-300 ease-in-out hover:bg-brand-blue hover:text-neutral-white;
   }
-
-  @media (orientation: landscape) and (max-width: 900px) {
-    .hero-landscape-hidden {
-      display: none;
-    }
-
-    .hero-landscape-nav-links-hidden {
-      display: none;
-    }
-  }
 }

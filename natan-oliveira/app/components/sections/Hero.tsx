@@ -50,7 +50,7 @@ export default function Hero() {
 
       <div className="pointer-events-none absolute inset-x-0 top-0 z-[15] h-20 bg-linear-to-b from-black/35 via-black/20 to-transparent" />
 
-      <div className="hero-landscape-hidden absolute top-[72px] left-1/2 z-30 -translate-x-1/2 sm:hidden">
+      <div className="absolute top-[72px] left-1/2 z-30 -translate-x-1/2 sm:hidden">
         <Image
           src="/images/logoHero.png"
           alt="Logo Natan Oliveira"
@@ -61,18 +61,18 @@ export default function Hero() {
       </div>
 
       {/* Pattern vertical */}
-      <div className="hero-landscape-hidden absolute z-20 hidden left-[1%] top-[15%] drop-shadow-[0_0_6px_rgba(255,255,255,0.25)] sm:block md:left-[6%] md:top-[12%] lg:left-[7%] lg:top-[10%] xl:left-[8%] xl:top-[10%]">
+      <div className="absolute z-20 hidden left-[1%] top-[15%] drop-shadow-[0_0_6px_rgba(255,255,255,0.25)] sm:block md:left-[6%] md:top-[12%] lg:left-[7%] lg:top-[10%] xl:left-[8%] xl:top-[10%]">
         <Image
           src="/images/Pattern_Vertical 2.png"
           alt="pattern vertical"
           width={80}
           height={800}
-          className="w-[clamp(40px,6vw,90px)] h-auto"
+          className="w-[clamp(40px,6vw,90px)] h-auto [@media(max-height:500px)]:hidden"
         />
       </div>
 
       <div
-        className="hero-landscape-hidden absolute z-20 flex max-w-[320px] flex-col items-center gap-2 text-center
+        className="absolute z-20 flex max-w-[320px] flex-col items-center gap-2 text-center
       left-1/2 bottom-8 -translate-x-1/2
 
       sm:left-[30%] sm:bottom-[16%] sm:translate-x-0 sm:items-center sm:text-center
@@ -95,7 +95,7 @@ export default function Hero() {
           alt="De onde a gente vem importa"
           width={400}
           height={400}
-          className="h-auto w-[66vw] max-w-[240px] sm:w-[clamp(200px,30vw,270px)]"
+          className="h-auto w-[66vw] max-w-[240px] sm:w-[clamp(200px,30vw,270px)] [@media(max-height:500px)]:hidden"
         />
 
         <p className="text-caption font-body mt-1 max-w-[260px] text-white/85 sm:hidden">
@@ -118,7 +118,7 @@ export default function Hero() {
             src="/images/natan-hero-mobile.jpg"
             alt="Natan Oliveira"
             fill
-            className="object-cover scale-160  lg:hidden"
+            className="object-cover scale-160  lg:hidden [@media(max-height:500px)]:hidden"
             priority
           />
 
@@ -127,7 +127,7 @@ export default function Hero() {
             src="/images/natan-hero.png"
             alt="Natan Oliveira"
             fill
-            className="hidden object-cover  lg:block"
+            className="hidden object-cover  lg:block [@media(max-height:500px)]:block"
             priority
           />
         </div>
@@ -138,7 +138,7 @@ export default function Hero() {
         <div className="absolute inset-x-0 bottom-0 h-[35%] bg-linear-to-t from-black/80 via-black/25 to-transparent" />
       </div>
 
-      <div className="hero-landscape-hidden absolute bottom-24 right-5 z-30 flex flex-col items-center gap-3 sm:hidden">
+      <div className="absolute bottom-24 right-5 z-30 flex flex-col items-center gap-3 sm:hidden">
         <a
           className="rounded-full bg-white/15 p-3 transition hover:bg-brand-blue/90"
           href="https://instagram.com"
@@ -197,7 +197,7 @@ export default function Hero() {
         </a>
       </div>
       {/* Texto rodapé */}
-      <p className="hero-landscape-hidden text-caption font-heading absolute bottom-6 left-1/2 hidden w-[90%] -translate-x-1/2 text-center font-semibold tracking-wide text-white sm:block">
+      <p className="text-caption font-body absolute bottom-6 left-1/2 hidden w-[90%] -translate-x-1/2 text-center font-semibold tracking-wide text-white sm:block">
         Professor, bibliotecario, vereador de Nova Serrana/MG e pre-candidato a
         deputado estadual por Minas Gerais.
       </p>

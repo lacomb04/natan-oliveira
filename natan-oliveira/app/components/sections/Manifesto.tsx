@@ -14,7 +14,7 @@ export default function Manifesto() {
           height={160}
           className="h-auto w-full max-w-[420px]"
         />
-        <p className="text-body max-w-3xl text-neutral-white/90 font-body">
+        <p className="text-body max-w-3xl text-neutral-white/90 font-body [@media(max-height:500px)]:pb-20">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras magna
           lectus, varius suscipit mattis eu, tincidunt vitae mauris. Duis
           vulputate ipsum orci, nec efficitur felis malesuada non. Etiam nibh
