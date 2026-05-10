@@ -53,6 +53,8 @@ export default function RedesSociais() {
                     title={post.title}
                     allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
                     allowFullScreen
+                    scrolling="no"
+                    style={{ overflow: "hidden" }}
                   />
                 ) : (
                   <div className="flex h-full w-full items-center justify-center text-brand-blue/40">
