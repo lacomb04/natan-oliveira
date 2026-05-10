@@ -52,7 +52,7 @@ export default function Hero() {
 
       <div className="absolute top-[72px] left-1/2 z-30 -translate-x-1/2 sm:hidden">
         <Image
-          src="/images/logoHero.png"
+          src="/images/logoHero.webp"
           alt="Logo Natan Oliveira"
           width={300}
           height={110}
@@ -63,7 +63,7 @@ export default function Hero() {
       {/* Pattern vertical */}
       <div className="absolute z-20 hidden left-[1%] top-[15%] drop-shadow-[0_0_6px_rgba(255,255,255,0.25)] sm:block md:left-[6%] md:top-[12%] lg:left-[7%] lg:top-[10%] xl:left-[8%] xl:top-[10%]">
         <Image
-          src="/images/Pattern_Vertical 2.png"
+          src="/images/Pattern_Vertical-2.webp"
           alt="pattern vertical"
           width={80}
           height={800}
@@ -82,7 +82,7 @@ export default function Hero() {
       >
         {/* Logo */}
         <Image
-          src="/images/logoHero.png"
+          src="/images/logoHero.webp"
           alt="Logo Natan Oliveira"
           width={220}
           height={80}
@@ -91,7 +91,7 @@ export default function Hero() {
 
         {/* Slogan */}
         <Image
-          src="/images/deOndeAGenteVem.png"
+          src="/images/deOndeAGenteVem.webp"
           alt="De onde a gente vem importa"
           width={400}
           height={400}
@@ -115,7 +115,7 @@ export default function Hero() {
         >
           {/* MOBILE */}
           <Image
-            src="/images/natan-hero-mobile.jpg"
+            src="/images/natan-hero-mobile.webp"
             alt="Natan Oliveira"
             fill
             className="object-cover scale-160  lg:hidden [@media(max-height:500px)]:hidden"
@@ -124,7 +124,7 @@ export default function Hero() {
 
           {/* DESKTOP */}
           <Image
-            src="/images/natan-hero.png"
+            src="/images/natan-hero.webp"
             alt="Natan Oliveira"
             fill
             className="hidden object-cover  lg:block [@media(max-height:500px)]:block"
