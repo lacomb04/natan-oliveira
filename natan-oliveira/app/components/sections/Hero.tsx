@@ -9,13 +9,13 @@ export default function Hero() {
       <div className="pointer-events-none absolute inset-x-0 top-0 z-[15] h-20 bg-linear-to-b from-black/35 via-black/20 to-transparent" />
 
       {/* Pattern vertical */}
-      <div className=" absolute z-20 left-[1%] top-[20%]  md:left-[6%] md:top-[12%] lg:left-[7%] lg:top-[10%] xl:left-[8%] xl:top-[10%] drop-shadow-[0_0_6px_rgba(255,255,255,0.25)]">
+      <div className=" absolute z-20 left-[1%] top-[15%]  md:left-[6%] md:top-[12%] lg:left-[7%] lg:top-[10%] xl:left-[8%] xl:top-[10%] drop-shadow-[0_0_6px_rgba(255,255,255,0.25)]">
         <Image
           src="/images/Pattern_Vertical 2.png"
           alt="pattern vertical"
           width={80}
           height={800}
-          className="w-[clamp(70px,6vw,90px)] h-auto"
+          className="w-[clamp(40px,6vw,90px)] h-auto"
         />
       </div>
 
