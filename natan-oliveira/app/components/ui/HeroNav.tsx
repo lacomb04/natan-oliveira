@@ -14,18 +14,18 @@ const handleNavClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
 
 export default function HeroNav() {
   return (
-    <nav className="absolute left-1/2 top-10 z-40 w-[min(94vw,1100px)] -translate-x-1/2 text-white sm:top-20 md:top-5">
+    <nav className="absolute left-1/2 top-6 z-40 w-[min(92vw,1100px)] -translate-x-1/2 text-white sm:top-20 md:top-5">
       <div className="flex flex-col items-center gap-2 text-center font-heading md:flex-row md:justify-between md:gap-3 sm:text-left">
-        <div className="text-caption flex flex-wrap items-center justify-center gap-5 font-semibold uppercase tracking-wide text-white transition-all duration-300 sm:justify-start md:gap-20">
+        <div className="flex flex-wrap items-center justify-center gap-3 text-[11px] font-semibold uppercase tracking-wide text-white transition-all duration-300 sm:justify-start sm:gap-8 sm:text-caption">
           <a
-            className="transition-colors hover:text-brand-yellow"
+            className="rounded-full border border-white/40 px-3 py-1 transition-colors hover:border-brand-yellow hover:text-brand-yellow sm:border-transparent sm:px-0 sm:py-0"
             href="#historia"
             onClick={handleNavClick}
           >
             Conheca minha historia
           </a>
           <a
-            className="transition-colors hover:text-brand-yellow"
+            className="rounded-full border border-white/40 px-3 py-1 transition-colors hover:border-brand-yellow hover:text-brand-yellow sm:border-transparent sm:px-0 sm:py-0"
             href="#manifesto"
             onClick={handleNavClick}
           >
@@ -33,7 +33,7 @@ export default function HeroNav() {
           </a>
         </div>
 
-        <div className="flex items-center gap-2 sm:gap-3 md:gap-4">
+        <div className="hidden items-center gap-2 sm:flex sm:gap-3 md:gap-4">
           <a
             className="rounded-full bg-white/10 p-2 transition hover:bg-brand-blue/90"
             href="https://instagram.com"
