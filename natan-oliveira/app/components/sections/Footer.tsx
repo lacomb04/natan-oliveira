@@ -47,7 +47,7 @@ export default function Footer() {
 
         <div className="flex flex-col gap-4 text-center md:text-right">
           <p className="text-subtitle font-semibold uppercase tracking-wide font-heading">
-            Redes sociais e contato
+            Vem com a gente!
           </p>
           <div className="flex flex-wrap items-center justify-center gap-3 md:justify-end">
             {socials.map((social) => (

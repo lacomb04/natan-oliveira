@@ -41,7 +41,7 @@ export default function Noticias() {
     >
       <div className="section-inner flex flex-col items-center gap-8">
         <Image
-          src="/images/noticiasTitle2.png"
+          src="/images/noticiasTitle.png"
           alt="Veja algumas noticias sobre o nosso trabalho"
           width={640}
           height={120}
