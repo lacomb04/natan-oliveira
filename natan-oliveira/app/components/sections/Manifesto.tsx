@@ -59,7 +59,7 @@ export default function Manifesto() {
         <button
           type="button"
           onClick={() => setIsExpanded((prev) => !prev)}
-          className="mt-2 inline-flex items-center justify-center rounded-full border border-neutral-white/60 px-5 py-2 text-sm font-semibold uppercase tracking-wide transition-colors hover:border-neutral-white hover:text-neutral-white"
+          className="mt-2 mb-8 inline-flex items-center justify-center rounded-full border border-neutral-white/60 px-5 py-2 text-sm font-semibold uppercase tracking-wide transition-colors hover:border-neutral-white hover:text-neutral-white"
           aria-expanded={isExpanded}
           aria-controls="manifesto-more"
         >
