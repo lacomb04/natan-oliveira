@@ -36,13 +36,13 @@ export default function HeroNav() {
         <div className="hidden items-center gap-2 sm:flex sm:gap-3 md:gap-4">
           <a
             className="rounded-full bg-white/10 p-2 transition hover:bg-brand-blue/90"
-            href="https://instagram.com"
+            href="https://www.instagram.com/nattannoliveira/"
             aria-label="Instagram"
             rel="noreferrer"
             target="_blank"
           >
             <img
-              src="https://cdn.simpleicons.org/instagram/ffffff"
+              src="/icons/IconIntagram.png"
               alt="Instagram"
               className="h-4 w-4 sm:h-5 sm:w-5"
               loading="lazy"
@@ -50,7 +50,21 @@ export default function HeroNav() {
           </a>
           <a
             className="rounded-full bg-white/10 p-2 transition hover:bg-brand-blue/90"
-            href="https://tiktok.com"
+            href="https://www.facebook.com/natanoliveiravozes"
+            aria-label="Facebook"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              src="/icons/IconFacebook.svg"
+              alt="Facebook"
+              className="h-4 w-4 sm:h-5 sm:w-5"
+              loading="lazy"
+            />
+          </a>
+          <a
+            className="rounded-full bg-white/10 p-2 transition hover:bg-brand-blue/90"
+            href="https://www.tiktok.com/@natan_oliveira12?_r=1&_t=ZS-96HMXCLQMh6"
             aria-label="TikTok"
             rel="noreferrer"
             target="_blank"
@@ -64,7 +78,7 @@ export default function HeroNav() {
           </a>
           <a
             className="rounded-full bg-white/10 p-2 transition hover:bg-brand-blue/90"
-            href="https://youtube.com"
+            href="https://youtube.com/@nattannoliveira?si=ZYn2Q06gA50pq2VH"
             aria-label="YouTube"
             rel="noreferrer"
             target="_blank"
@@ -78,7 +92,7 @@ export default function HeroNav() {
           </a>
           <a
             className="rounded-full bg-white/10 p-2 transition hover:bg-brand-blue/90"
-            href="https://wa.me/"
+            href="https://wa.me/5537991242690"
             aria-label="WhatsApp"
             rel="noreferrer"
             target="_blank"
