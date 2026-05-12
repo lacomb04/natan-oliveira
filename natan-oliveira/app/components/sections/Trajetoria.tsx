@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default function Trajetoria() {
-  const youtubeId = "69RdQFDuYPI";
+  const youtubeId = "";
 
   return (
     <section id="trajetoria" className="section min-h-[50vh] bg-brand-yellow">
@@ -17,13 +17,9 @@ export default function Trajetoria() {
         </div>
 
         <div className="flex w-full flex-col items-start gap-4">
-          <div className="w-full overflow-hidden rounded-[26px] border-[4px] border-brand-blue bg-neutral-white">
+          <div className="w-full overflow-hidden rounded-[26px] border-[4px] border-brand-blue bg-neutral-gray">
             <div className="aspect-video w-full">
-              {!youtubeId ? (
-                <div className="flex h-full w-full items-center justify-center text-brand-blue/40">
-                  <div className="h-16 w-24 rounded-[18px] bg-brand-blue/10" />
-                </div>
-              ) : (
+              {youtubeId ? (
                 <iframe
                   className="h-full w-full"
                   src={`https://www.youtube.com/embed/${youtubeId}`}
@@ -32,13 +28,16 @@ export default function Trajetoria() {
                   referrerPolicy="strict-origin-when-cross-origin"
                   allowFullScreen
                 />
+              ) : (
+                <div className="flex h-full w-full items-center justify-center text-center">
+                  <span className="text-body font-heading p-10 font-semibold uppercase text-brand-blue">
+                    Em breve 12/05 - Video contando um pouco da minha trajetoria
+                    e planos para o futuro
+                  </span>
+                </div>
               )}
             </div>
           </div>
-
-          <p className="text-body font-semibold text-brand-blue font-heading">
-            Video da minha trajetoria
-          </p>
         </div>
       </div>
     </section>

@@ -3,23 +3,27 @@ import Image from "next/image";
 const socials = [
   {
     name: "Instagram",
-    href: "#",
-    icon: "https://cdn.simpleicons.org/instagram/ffffff",
-    isExternalIcon: true,
+    href: "https://www.instagram.com/nattannoliveira/",
+    icon: "/icons/IconIntagram.png",
+  },
+  {
+    name: "Facebook",
+    href: "https://www.facebook.com/natanoliveiravozes",
+    icon: "/icons/IconFacebook.svg",
   },
   {
     name: "WhatsApp",
-    href: "#",
+    href: "https://wa.me/5537991242690",
     icon: "/icons/whatsapp.png",
   },
   {
     name: "YouTube",
-    href: "#",
+    href: "https://youtube.com/@nattannoliveira?si=ZYn2Q06gA50pq2VH",
     icon: "/icons/youtube.svg",
   },
   {
     name: "TikTok",
-    href: "#",
+    href: "https://www.tiktok.com/@natan_oliveira12?_r=1&_t=ZS-96HMXCLQMh6",
     icon: "/icons/tiktok.svg",
   },
 ];
@@ -52,25 +56,16 @@ export default function Footer() {
                 href={social.href}
                 className="flex items-center gap-2 rounded-full border border-neutral-white/20 px-3 py-2 text-caption font-semibold text-neutral-white transition hover:bg-neutral-white/10"
                 aria-label={social.name}
+                target="_blank"
+                rel="noreferrer"
               >
-                {social.isExternalIcon ? (
-                  <img
-                    src={social.icon}
-                    alt=""
-                    width={20}
-                    height={20}
-                    className="h-5 w-5"
-                    loading="lazy"
-                  />
-                ) : (
-                  <Image
-                    src={social.icon}
-                    alt=""
-                    width={20}
-                    height={20}
-                    className="h-5 w-5"
-                  />
-                )}
+                <Image
+                  src={social.icon}
+                  alt=""
+                  width={20}
+                  height={20}
+                  className="h-5 w-5"
+                />
                 {social.name}
               </a>
             ))}
