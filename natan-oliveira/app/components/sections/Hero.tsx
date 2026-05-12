@@ -185,7 +185,7 @@ export default function Hero() {
           screens so the footer text remains readable and distinct from the
           content block above it.
         */}
-        <div className="absolute inset-x-0 bottom-0 h-[35%] bg-linear-to-t from-black/80 via-black/25 to-transparent [@media(max-height:700px)]:h-[42%]" />
+        <div className="absolute inset-x-0 bottom-0 h-[35%] bg-linear-to-t from-black/80 via-black/25 to-transparent [@media(max-height:760px)]:h-[42%]" />
       </div>
 
       {/* Social icons — mobile only */}
