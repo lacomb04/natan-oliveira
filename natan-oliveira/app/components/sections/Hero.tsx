@@ -98,11 +98,11 @@ export default function Hero() {
           className="h-auto w-[66vw] max-w-[240px] sm:w-[clamp(200px,30vw,270px)] [@media(max-height:500px)]:hidden"
         />
 
-        <p className="text-caption font-body mt-1 max-w-[260px] text-white/85 sm:hidden">
+        <p className="text-caption font-body mt-2 max-w-[260px] text-white/85 sm:hidden">
           Professor, bibliotecario e vereador de Nova Serrana/MG.
         </p>
 
-        <a className="btn mt-3 text-xs sm:text-sm" href="#trajetoria">
+        <a className="btn mt-3 mb-8 text-xs sm:text-sm" href="#trajetoria">
           Conheça minha Tragetória
         </a>
       </div>
@@ -211,7 +211,7 @@ export default function Hero() {
         </a>
       </div>
       {/* Texto rodapé */}
-      <p className="text-caption font-body absolute bottom-6 left-1/2 hidden w-[90%] -translate-x-1/2 text-center font-semibold tracking-wide text-white sm:block">
+      <p className=" text-caption font-body absolute bottom-6 left-1/2 hidden w-[90%] -translate-x-1/2 text-center font-semibold tracking-wide text-white sm:block">
         Professor, bibliotecario, vereador de Nova Serrana/MG e pre-candidato a
         deputado estadual por Minas Gerais.
       </p>
