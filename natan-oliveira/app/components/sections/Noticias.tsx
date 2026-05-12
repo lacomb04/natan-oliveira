@@ -79,7 +79,7 @@ export default function Noticias() {
               </p>
 
               <span className="text-caption font-body font-semibold text-brand-blue">
-                Ler materia
+                Ler matéria
               </span>
             </a>
           ))}
