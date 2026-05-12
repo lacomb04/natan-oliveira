@@ -61,24 +61,25 @@ export default function Hero() {
       </div>
 
       {/* Pattern vertical */}
-      <div className="absolute z-20 hidden left-[1%] top-[15%] drop-shadow-[0_0_6px_rgba(255,255,255,0.25)] sm:block md:left-[6%] md:top-[12%] lg:left-[7%] lg:top-[10%] xl:left-[8%] xl:top-[10%]">
+      <div className="absolute z-2 hidden left-[1%] top-[15%] drop-shadow-[0_0_6px_rgba(255,255,255,0.25)] sm:block md:left-[6%] md:top-[12%] lg:left-[7%] lg:top-[10%] xl:left-[8%] xl:top-[10%] [@media(max-height:700px)]:top-[8%]">
         <Image
           src="/images/Pattern_Vertical-2.webp"
           alt="pattern vertical"
           width={80}
           height={800}
-          className="w-[clamp(40px,6vw,90px)] h-auto [@media(max-height:500px)]:hidden"
+          className="w-[clamp(40px,6vw,90px)] h-auto origin-top [@media(max-height:800px)]:scale-90 [@media(max-height:700px)]:w-[clamp(32px,5vw,70px)] [@media(max-height:700px)]:scale-80 [@media(max-height:600px)]:scale-70 [@media(max-height:520px)]:scale-60 [@media(max-height:450px)]:scale-50"
         />
       </div>
 
       <div
-        className="absolute z-20 flex max-w-[320px] flex-col items-center gap-2 text-center
+        className="absolute z-30 flex max-w-[320px] flex-col items-center gap-2 text-center [@media(max-height:700px)]:gap-1
       left-1/2 bottom-8 -translate-x-1/2
 
       sm:left-[30%] sm:bottom-[16%] sm:translate-x-0 sm:items-center sm:text-center
       md:left-[32%] md:bottom-[16%]
       lg:left-[20%] lg:top-[22%] lg:bottom-auto
-      xl:left-[22%] xl:top-[20%]"
+      xl:left-[22%] xl:top-[20%]
+      [@media(max-height:700px)]:bottom-12 [@media(max-height:600px)]:bottom-10"
       >
         {/* Logo */}
         <Image
@@ -95,14 +96,17 @@ export default function Hero() {
           alt="De onde a gente vem importa"
           width={400}
           height={400}
-          className="h-auto w-[66vw] max-w-[240px] sm:w-[clamp(200px,30vw,270px)] [@media(max-height:500px)]:hidden"
+          className="h-auto w-[66vw] max-w-[240px] sm:w-[clamp(200px,30vw,270px)] origin-top [@media(max-height:800px)]:scale-90 [@media(max-height:700px)]:w-[58vw] [@media(max-height:700px)]:max-w-[210px] [@media(max-height:700px)]:scale-80 [@media(max-height:600px)]:max-w-[190px] [@media(max-height:600px)]:scale-70 [@media(max-height:520px)]:max-w-[170px] [@media(max-height:520px)]:scale-60 [@media(max-height:500px)]:hidden"
         />
 
         <p className="text-caption font-body mt-2 max-w-[260px] text-white/85 sm:hidden">
           Professor, bibliotecario e vereador de Nova Serrana/MG.
         </p>
 
-        <a className="btn mt-3 mb-8 text-xs sm:text-sm" href="#trajetoria">
+        <a
+          className="btn mt-2 mb-4 text-xs sm:mb-14 sm:text-sm [@media(max-height:700px)]:mt-1 [@media(max-height:700px)]:mb-1 [@media(max-height:700px)]:text-[10px] [@media(max-height:700px)]:px-3 [@media(max-height:700px)]:py-1.5 [@media(max-height:600px)]:scale-95 [@media(max-height:520px)]:scale-90"
+          href="#trajetoria"
+        >
           Conheça minha Tragetória
         </a>
       </div>
@@ -211,7 +215,7 @@ export default function Hero() {
         </a>
       </div>
       {/* Texto rodapé */}
-      <p className=" text-caption font-body absolute bottom-6 left-1/2 hidden w-[90%] -translate-x-1/2 text-center font-semibold tracking-wide text-white sm:block">
+      <p className=" text-caption font-body absolute bottom-2 left-1/2 hidden w-[90%] -translate-x-1/2 text-center font-semibold tracking-wide text-white sm:block ">
         Professor, bibliotecario, vereador de Nova Serrana/MG e pre-candidato a
         deputado estadual por Minas Gerais.
       </p>
