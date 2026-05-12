@@ -141,8 +141,8 @@ export default function Hero() {
           className="
             btn mt-2 text-xs
             sm:text-sm
-            [@media(max-height:700px)]:mt-1 [@media(max-height:700px)]:text-[10px]
-            [@media(max-height:700px)]:px-3 [@media(max-height:700px)]:py-1.5
+            [@media(max-height:760px)]:mt-1 [@media(max-height:760px)]:text-[10px]
+            [@media(max-height:760px)]:px-3 [@media(max-height:760px)]:py-1.5
             [@media(max-height:600px)]:scale-95
             [@media(max-height:520px)]:scale-90
           "
