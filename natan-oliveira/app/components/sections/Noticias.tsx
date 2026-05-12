@@ -13,7 +13,8 @@ type NewsItem = {
 const news: NewsItem[] = [
   {
     id: 1,
-    title: "Natan Oliveira - Vozes 12000",
+    title:
+      "Natan Oliveira Vozes é eleito vereador em Nova Serrana com proposta de renovação e voz popular",
     subtitle: "Perfil do Vereador Eleito Natan Oliveira Vozes ",
     source: "O Tempo",
     logoSrc: "/images/OTempo.jpg",
