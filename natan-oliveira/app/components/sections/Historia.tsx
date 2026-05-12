@@ -7,15 +7,86 @@ export default function Historia() {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const paragraphs = [
-    "Antes da politica, vieram os livros. Vieram as salas de aula, os sonhos divididos entre o trabalho, o estudo e a vontade de construir algo maior. De mudar vidas. De fazer diferente.",
-    "Elder Natan Pinto de Oliveira nasceu em Malacacheta, no Norte de Minas Gerais, em 25 de dezembro de 1991. Ainda pequeno, chegou em Nova Serrana com a familia, como tantas outras pessoas que cruzaram estradas em busca de oportunidade, trabalho e uma vida mais digna.",
-    "A educacao publica mudou sua trajetoria. Formou-se em Letras pela Universidade Federal de Ouro Preto (UFOP), onde iniciou sua caminhada nos movimentos estudantis, tornando-se uma importante lideranca universitaria. Foi ali que compreendeu que a transformacao social acontece quando as pessoas ocupam espacos e levantam suas vozes coletivamente. Tambem e mestre em Educacao pela Universidade do Estado de Minas Gerais (UEMG).",
-    "Tornou-se professor de Lingua Portuguesa na educacao basica, servidor publico na Biblioteca Municipal Aurelio Camilo, em Nova Serrana, e hoje tambem atua como professor do ensino superior. Educador popular e ativista do Movimento Negro, e fundador do De(s)coloniza, projeto voltado a educacao antirracista, e do Movimento Vozes, iniciativa de democratizacao da politica e incentivo a participacao popular.",
-    "Entre livros, jovens, historias e sonhos, encontrou ainda mais motivos para acreditar na educacao, na cultura e na participacao coletiva como ferramentas reais de transformacao. A cultura urbana, os movimentos perifericos, a juventude e a vivencia popular ajudaram a fortalecer seu compromisso com a justica social e com uma politica mais humana e proxima das pessoas.",
-    "Em 2024, foi eleito vereador em Nova Serrana com 647 votos, construindo uma atuacao marcada pela escuta, presenca nos bairros e defesa da educacao, da cultura e da participacao popular. Uma politica feita para ampliar as vozes de quem ainda tem pouco espaco.",
-    "A relacao com a politica tambem atravessa sua historia familiar. Natan carrega o legado do avo, Claudino Pinto de Oliveira, vereador por dois mandatos em Malacacheta, numa epoca em que a politica ainda nao era remunerada. Herdou dele a sensibilidade para ouvir as pessoas simples e a vontade de lutar por quem mais precisa.",
-    "Hoje, e pre-candidato a deputado estadual pelo PDT em Minas Gerais, defendendo uma politica construida pelo dialogo, conectada com a vida real e com as transformacoes que nascem das periferias, das escolas e das comunidades.",
-    "Porque de onde a gente vem importa.",
+    <>
+      Antes da politica, vieram os <strong>livros</strong>. Vieram as{" "}
+      <strong>salas de aula</strong>, os sonhos divididos entre o trabalho, o
+      estudo e a vontade de construir algo maior. De{" "}
+      <strong>mudar vidas</strong>. De fazer diferente.
+    </>,
+
+    <>
+      <strong>Elder Natan Pinto de Oliveira</strong> nasceu em{" "}
+      <strong>Malacacheta</strong>, no Norte de Minas Gerais, em{" "}
+      <strong>25 de dezembro de 1991</strong>. Ainda pequeno, chegou em{" "}
+      <strong>Nova Serrana</strong> com a familia, como tantas outras pessoas
+      que cruzaram estradas em busca de <strong>oportunidade</strong>, trabalho
+      e uma vida mais digna.
+    </>,
+
+    <>
+      A <strong>educacao publica</strong> mudou sua trajetoria. Formou-se em{" "}
+      <strong>Letras pela Universidade Federal de Ouro Preto (UFOP)</strong>,
+      onde iniciou sua caminhada nos <strong>movimentos estudantis</strong>,
+      tornando-se uma importante <strong>lideranca universitaria</strong>. Foi
+      ali que compreendeu que a <strong>transformacao social</strong> acontece
+      quando as pessoas ocupam espacos e levantam suas vozes coletivamente.
+      Tambem e{" "}
+      <strong>
+        mestre em Educacao pela Universidade do Estado de Minas Gerais (UEMG)
+      </strong>
+      .
+    </>,
+
+    <>
+      Tornou-se <strong>professor de Lingua Portuguesa</strong> na educacao
+      basica, servidor publico na{" "}
+      <strong>Biblioteca Municipal Aurelio Camilo</strong>, em Nova Serrana, e
+      hoje tambem atua como <strong>professor do ensino superior</strong>.{" "}
+      <strong>Educador popular</strong> e ativista do{" "}
+      <strong>Movimento Negro</strong>, e fundador do{" "}
+      <strong>De(s)coloniza</strong>, projeto voltado a educacao antirracista, e
+      do <strong>Movimento Vozes</strong>, iniciativa de democratizacao da
+      politica e incentivo a participacao popular.
+    </>,
+
+    <>
+      Entre <strong>livros</strong>, jovens, historias e sonhos, encontrou ainda
+      mais motivos para acreditar na <strong>educacao</strong>, na{" "}
+      <strong>cultura</strong> e na <strong>participacao coletiva</strong> como
+      ferramentas reais de transformacao. A <strong>cultura urbana</strong>, os
+      movimentos perifericos, a juventude e a vivencia popular ajudaram a
+      fortalecer seu compromisso com a <strong>justica social</strong> e com uma
+      politica mais humana e proxima das pessoas.
+    </>,
+
+    <>
+      Em <strong>2024</strong>, foi eleito{" "}
+      <strong>vereador em Nova Serrana</strong> com <strong>647 votos</strong>,
+      construindo uma atuacao marcada pela <strong>escuta</strong>, presenca nos
+      bairros e defesa da <strong>educacao</strong>, da <strong>cultura</strong>{" "}
+      e da <strong>participacao popular</strong>. Uma politica feita para
+      ampliar as vozes de quem ainda tem pouco espaco.
+    </>,
+
+    <>
+      A relacao com a politica tambem atravessa sua{" "}
+      <strong>historia familiar</strong>. Natan carrega o legado do avo,{" "}
+      <strong>Claudino Pinto de Oliveira</strong>, vereador por dois mandatos em
+      Malacacheta, numa epoca em que a politica ainda nao era remunerada. Herdou
+      dele a sensibilidade para ouvir as pessoas simples e a vontade de lutar
+      por quem mais precisa.
+    </>,
+
+    <>
+      Hoje, e <strong>pre-candidato a deputado estadual</strong> pelo{" "}
+      <strong>PDT</strong> em Minas Gerais, defendendo uma politica construida
+      pelo <strong>dialogo</strong>, conectada com a vida real e com as
+      transformacoes que nascem das periferias, das escolas e das comunidades.
+    </>,
+
+    <>
+      Porque de onde a gente vem <strong>importa</strong>.
+    </>,
   ];
 
   const visibleParagraphs = paragraphs.slice(0, 2);
@@ -39,12 +110,14 @@ export default function Historia() {
           <h2 className="text-subtitle font-semibold font-heading">
             Minha historia comeca como a de muita gente.
           </h2>
+
           <div className="text-body text-neutral-white/90 font-body">
             {visibleParagraphs.map((paragraph, index) => (
               <p key={`historia-visible-${index}`} className="mb-4 last:mb-0">
                 {paragraph}
               </p>
             ))}
+
             <div
               id="historia-more"
               className={
@@ -62,6 +135,7 @@ export default function Historia() {
               ))}
             </div>
           </div>
+
           <button
             type="button"
             onClick={() => setIsExpanded((prev) => !prev)}
