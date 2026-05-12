@@ -122,7 +122,7 @@ export default function Hero() {
             h-auto w-[66vw] max-w-[240px]
             sm:w-[clamp(200px,30vw,270px)] origin-top
             [@media(max-height:800px)]:scale-90
-            [@media(max-height:700px)]:w-[58vw] [@media(max-height:700px)]:max-w-[210px] [@media(max-height:700px)]:scale-80
+            [@media(max-height:760px)]:w-[58vw] [@media(max-height:760px)]:max-w-[210px] [@media(max-height:760px)]:scale-80
             [@media(max-height:600px)]:max-w-[190px] [@media(max-height:600px)]:scale-70
             [@media(max-height:520px)]:hidden
           "
