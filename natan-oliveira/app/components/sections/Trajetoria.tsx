@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default function Trajetoria() {
-  const youtubeId = "";
+  const youtubeId = "IwXVhl_yWGQ?si=2WKk6JzwexYs_urL";
 
   return (
     <section id="trajetoria" className="section min-h-[50vh] bg-brand-yellow">
