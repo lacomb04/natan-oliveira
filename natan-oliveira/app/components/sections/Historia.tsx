@@ -1,10 +1,21 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Image from "next/image";
 
 export default function Historia() {
   const [isExpanded, setIsExpanded] = useState(false);
+  const sectionRef = useRef<HTMLElement>(null);
+
+  const handleToggleExpand = () => {
+    if (isExpanded && sectionRef.current) {
+      // Se vai fechar, faz scroll para o topo da seção
+      setTimeout(() => {
+        sectionRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 0);
+    }
+    setIsExpanded((prev) => !prev);
+  };
 
   const paragraphs = [
     <>
@@ -94,6 +105,7 @@ export default function Historia() {
 
   return (
     <section
+      ref={sectionRef}
       id="historia"
       className="section min-h-[50vh] bg-brand-blue text-neutral-white"
     >
@@ -138,7 +150,7 @@ export default function Historia() {
 
           <button
             type="button"
-            onClick={() => setIsExpanded((prev) => !prev)}
+            onClick={handleToggleExpand}
             className="mt-2 mb-4 inline-flex items-center justify-center rounded-full border border-neutral-white/60 px-5 py-2 text-sm font-semibold uppercase tracking-wide transition-colors hover:border-neutral-white hover:text-neutral-white"
             aria-expanded={isExpanded}
             aria-controls="historia-more"

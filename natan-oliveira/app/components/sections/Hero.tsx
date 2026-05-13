@@ -91,7 +91,7 @@ export default function Hero() {
           sm:left-[30%] sm:bottom-10 sm:translate-x-0 sm:items-center sm:text-center
           md:left-[32%] md:bottom-16
           lg:left-[20%] lg:top-[15%] lg:bottom-auto
-          xl:left-[22%] xl:top-[12%]
+          xl:left-[22%] xl:top-[16%]
 
           
           [@media(max-height:700px)]:gap-1 [@media(max-height:700px)]:bottom-10
