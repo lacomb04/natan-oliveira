@@ -56,7 +56,7 @@ export default function Hero() {
           alt="Logo Natan Oliveira"
           width={300}
           height={110}
-          className="h-auto w-[clamp(220px,55vw,340px)] drop-shadow-[0_10px_28px_rgba(0,0,0,0.45)]"
+          className="h-auto w-[clamp(220px,55vw,340px)] drop-shadow-[0_10px_28px_rgba(0,0,0,0.45)]  "
         />
       </div>
 
@@ -84,20 +84,16 @@ export default function Hero() {
         className="
           absolute z-30 flex max-w-[320px] flex-col items-center gap-2 text-center
 
-          /* MOBILE: keep near bottom but leave room for social icons (bottom-24)
-             and don't go below them */
+   
           left-1/2 bottom-8 -translate-x-1/2
 
-          /* SM+: anchor to bottom with enough clearance for the footer text (~32px)
-             plus comfortable padding.  We use bottom-10 (40px) as the minimum so
-             the button never sits on top of the footer text. */
+         
           sm:left-[30%] sm:bottom-10 sm:translate-x-0 sm:items-center sm:text-center
-          md:left-[32%] md:bottom-10
-          lg:left-[20%] lg:top-[22%] lg:bottom-auto
-          xl:left-[22%] xl:top-[20%]
+          md:left-[32%] md:bottom-16
+          lg:left-[20%] lg:top-[15%] lg:bottom-auto
+          xl:left-[22%] xl:top-[12%]
 
-          /* Short screens: shrink gap and nudge up a bit, but keep the
-             bottom clearance so we never overlap the footer text */
+          
           [@media(max-height:700px)]:gap-1 [@media(max-height:700px)]:bottom-10
           [@media(max-height:600px)]:bottom-9
           [@media(max-height:520px)]:bottom-9
@@ -109,7 +105,7 @@ export default function Hero() {
           alt="Logo Natan Oliveira"
           width={220}
           height={80}
-          className="hidden h-auto w-[clamp(200px,44vw,270px)] drop-shadow-[0_8px_24px_rgba(0,0,0,0.35)] sm:block"
+          className="hidden h-auto w-[clamp(200px,44vw,270px)] drop-shadow-[0_8px_24px_rgba(0,0,0,0.35)]  sm:block"
         />
 
         {/* Slogan — hide on very short screens so the block stays compact */}
@@ -141,7 +137,7 @@ export default function Hero() {
           className="
             btn mt-2 text-xs
             sm:text-sm
-            [@media(max-height:760px)]:mt-1 [@media(max-height:760px)]:text-[10px]
+            [@media(max-height:760px)]:mt-0 [@media(max-height:760px)]:text-[15px]
             [@media(max-height:760px)]:px-3 [@media(max-height:760px)]:py-1.5
             [@media(max-height:600px)]:scale-95
             [@media(max-height:520px)]:scale-90
