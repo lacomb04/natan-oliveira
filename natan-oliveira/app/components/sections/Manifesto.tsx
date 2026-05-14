@@ -73,10 +73,14 @@ export default function Manifesto() {
       <strong>educação</strong>. Porque educação muda destino. Educação abre
       portas. Educação salva. Mas em Minas Gerais tentam transformar a educação
       em mercadoria. Sucateiam escolas, desrespeitam servidores, privatizam
-      sonhos. Fazendo lembrar a máxima de <strong>Darcy Ribeiro</strong> que
-      dizia: “a crise da educação no Brasil não é uma crise. É um projeto.”
-      Nossa luta se recusa a aceitar esse projeto. Defendemos uma{" "}
-      <strong>educação pública</strong>, humana, cidadã e transformadora. Uma
+      sonhos.
+    </>,
+
+    <>
+      Fazendo lembrar a máxima de <strong>Darcy Ribeiro</strong> que dizia: “a
+      crise da educação no Brasil não é uma crise. É um projeto.” Nossa luta se
+      recusa a aceitar esse projeto. Defendemos uma{" "}
+      <strong>educação pública</strong>, humana, cidadã, transformadora. Uma
       educação que alcance crianças, adolescentes, jovens, adultos e idosos. Uma
       educação que forme <strong>pessoas livres</strong>.
     </>,
@@ -94,12 +98,16 @@ export default function Manifesto() {
     <>
       Nós acreditamos na potência da <strong>juventude periférica</strong>.
       Acreditamos na força de quem cria mesmo sem incentivo. Na coragem de quem
-      transforma exclusão em expressão. E acreditamos que nenhuma democracia
-      será completa enquanto pessoas continuarem sendo silenciadas por serem
-      diferentes. Falamos aqui da <strong>luta antirracista</strong>. Da luta
-      das <strong>mulheres</strong>. Da população <strong>LGBTQIAPN+</strong>.
-      Das pessoas com deficiência. Das pessoas neurodivergentes. De todos que
-      conhecem na pele o peso do preconceito e da exclusão.
+      transforma exclusão em expressão.
+    </>,
+
+    <>
+      E acreditamos que nenhuma democracia será completa enquanto pessoas
+      continuarem sendo silenciadas por serem diferentes. Falamos aqui da{" "}
+      <strong>luta antirracista</strong>. Da luta das <strong>mulheres</strong>.
+      Da população <strong>LGBTQIAPN+</strong>. Das pessoas com deficiência. Das
+      pessoas neurodivergentes. De todos que conhecem na pele o peso do
+      preconceito e da exclusão.
     </>,
 
     <>
@@ -113,16 +121,22 @@ export default function Manifesto() {
       Esse projeto nasce da nossa <strong>origem</strong>. Da nossa história. Do
       nosso povo, de casa em casa, de cada canto do estado. De cada conversa ao
       pé do fogão à lenha, de cada roçado. Nasce daquilo que vivemos. Daquilo
-      que somos. E é exatamente por isso que essa caminhada faz sentido. Porque
-      de onde a gente vem molda aquilo que a gente defende. Molda aquilo que a
-      gente sonha. Molda aquilo que a gente nunca aceita esquecer.
+      que somos. E é exatamente por isso que essa caminhada faz sentido.
+    </>,
+
+    <>
+      Porque de onde a gente vem molda aquilo que a gente defende. Molda aquilo
+      que a gente sonha. Molda aquilo que a gente nunca aceita esquecer.
     </>,
 
     <>
       E é por isso que <strong>Natan Oliveira</strong> é{" "}
       <strong>pré-candidato a deputado estadual</strong>. Para fazer ecoar a voz
-      do nosso povo. Para transformar nosso sonho em realidade! Porque de onde a
-      gente vem <strong>importa</strong>!
+      do nosso povo. Para transformar nosso sonho em realidade!
+    </>,
+
+    <>
+      Porque de onde a gente vem <strong>importa</strong>!
     </>,
   ];
 
