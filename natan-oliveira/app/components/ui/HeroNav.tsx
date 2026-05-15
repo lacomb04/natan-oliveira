@@ -22,7 +22,7 @@ export default function HeroNav() {
             href="#historia"
             onClick={handleNavClick}
           >
-            Conheca minha historia
+            Conheça minha história
           </a>
           <a
             className="rounded-full border border-white/40 px-3 py-1 transition-colors hover:border-brand-yellow hover:text-brand-yellow sm:border-transparent sm:px-0 sm:py-0"
