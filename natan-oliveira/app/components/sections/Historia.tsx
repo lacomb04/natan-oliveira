@@ -11,7 +11,10 @@ export default function Historia() {
     if (isExpanded && sectionRef.current) {
       // Se vai fechar, faz scroll para o topo da seção
       setTimeout(() => {
-        sectionRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+        sectionRef.current?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
       }, 0);
     }
     setIsExpanded((prev) => !prev);
@@ -19,7 +22,7 @@ export default function Historia() {
 
   const paragraphs = [
     <>
-      Antes da politica, vieram os <strong>livros</strong>. Vieram as{" "}
+      Antes da política, vieram os <strong>livros</strong>. Vieram as{" "}
       <strong>salas de aula</strong>, os sonhos divididos entre o trabalho, o
       estudo e a vontade de construir algo maior. De{" "}
       <strong>mudar vidas</strong>. De fazer diferente.
@@ -29,70 +32,73 @@ export default function Historia() {
       <strong>Elder Natan Pinto de Oliveira</strong> nasceu em{" "}
       <strong>Malacacheta</strong>, no Norte de Minas Gerais, em{" "}
       <strong>25 de dezembro de 1991</strong>. Ainda pequeno, chegou em{" "}
-      <strong>Nova Serrana</strong> com a familia, como tantas outras pessoas
+      <strong>Nova Serrana</strong> com a família, como tantas outras pessoas
       que cruzaram estradas em busca de <strong>oportunidade</strong>, trabalho
       e uma vida mais digna.
     </>,
 
     <>
-      A <strong>educacao publica</strong> mudou sua trajetoria. Formou-se em{" "}
+      A <strong>educação pública</strong> mudou sua trajetória. Formou-se em{" "}
       <strong>Letras pela Universidade Federal de Ouro Preto (UFOP)</strong>,
       onde iniciou sua caminhada nos <strong>movimentos estudantis</strong>,
-      tornando-se uma importante <strong>lideranca universitaria</strong>. Foi
-      ali que compreendeu que a <strong>transformacao social</strong> acontece
-      quando as pessoas ocupam espacos e levantam suas vozes coletivamente.
-      Tambem e{" "}
+      tornando-se uma importante <strong>liderança universitária</strong>. Foi
+      ali que compreendeu que a <strong>transformação social</strong> acontece
+      quando as pessoas ocupam espaços e levantam suas vozes coletivamente.
+      Também é{" "}
       <strong>
-        mestre em Educacao pela Universidade do Estado de Minas Gerais (UEMG)
+        mestre em Educação pela Universidade do Estado de Minas Gerais (UEMG)
       </strong>
       .
     </>,
 
     <>
-      Tornou-se <strong>professor de Lingua Portuguesa</strong> na educacao
-      basica, servidor publico na{" "}
-      <strong>Biblioteca Municipal Aurelio Camilo</strong>, em Nova Serrana, e
-      hoje tambem atua como <strong>professor do ensino superior</strong>.{" "}
+      Tornou-se <strong>professor de Língua Portuguesa</strong> na educação
+      básica, servidor público na{" "}
+      <strong>Biblioteca Municipal Aurélio Camilo</strong>, em Nova Serrana, e
+      hoje também atua como <strong>professor do ensino superior</strong>.{" "}
       <strong>Educador popular</strong> e ativista do{" "}
-      <strong>Movimento Negro</strong>, e fundador do{" "}
-      <strong>De(s)coloniza</strong>, projeto voltado a educacao antirracista, e
-      do <strong>Movimento Vozes</strong>, iniciativa de democratizacao da
-      politica e incentivo a participacao popular.
+      <strong>Movimento Negro</strong>, é fundador do{" "}
+      <strong>De(s)coloniza</strong>, projeto voltado à educação antirracista, e
+      do <strong>Movimento Vozes</strong>, iniciativa de democratização da
+      política e incentivo à participação popular.
     </>,
 
     <>
-      Entre <strong>livros</strong>, jovens, historias e sonhos, encontrou ainda
-      mais motivos para acreditar na <strong>educacao</strong>, na{" "}
-      <strong>cultura</strong> e na <strong>participacao coletiva</strong> como
-      ferramentas reais de transformacao. A <strong>cultura urbana</strong>, os
-      movimentos perifericos, a juventude e a vivencia popular ajudaram a
-      fortalecer seu compromisso com a <strong>justica social</strong> e com uma
-      politica mais humana e proxima das pessoas.
+      Entre <strong>livros</strong>, jovens, histórias e sonhos, encontrou ainda
+      mais motivos para acreditar na <strong>educação</strong>, na{" "}
+      <strong>cultura</strong> e na <strong>participação coletiva</strong> como
+      ferramentas reais de <strong>transformação</strong>. A{" "}
+      <strong>cultura urbana</strong>, os movimentos{" "}
+      <strong>periféricos</strong>, a juventude e a{" "}
+      <strong>vivência popular</strong> ajudaram a fortalecer seu compromisso
+      com a <strong>justiça social</strong> e com uma{" "}
+      <strong>política mais humana e próxima das pessoas</strong>.
     </>,
 
     <>
       Em <strong>2024</strong>, foi eleito{" "}
       <strong>vereador em Nova Serrana</strong> com <strong>647 votos</strong>,
-      construindo uma atuacao marcada pela <strong>escuta</strong>, presenca nos
-      bairros e defesa da <strong>educacao</strong>, da <strong>cultura</strong>{" "}
-      e da <strong>participacao popular</strong>. Uma politica feita para
-      ampliar as vozes de quem ainda tem pouco espaco.
+      construindo uma <strong>atuação marcada pela escuta</strong>, presença nos
+      bairros e defesa da <strong>educação</strong>, da <strong>cultura</strong>{" "}
+      e da <strong>participação popular</strong>. Uma política feita para
+      ampliar as vozes de quem ainda tem pouco <strong>espaço</strong>.
     </>,
 
     <>
-      A relacao com a politica tambem atravessa sua{" "}
-      <strong>historia familiar</strong>. Natan carrega o legado do avo,{" "}
-      <strong>Claudino Pinto de Oliveira</strong>, vereador por dois mandatos em
-      Malacacheta, numa epoca em que a politica ainda nao era remunerada. Herdou
-      dele a sensibilidade para ouvir as pessoas simples e a vontade de lutar
-      por quem mais precisa.
+      A <strong>relação com a política</strong> também atravessa sua{" "}
+      <strong>história familiar</strong>. Natan carrega o legado do{" "}
+      <strong>avô</strong>, <strong>Claudino Pinto de Oliveira</strong>,
+      vereador por dois mandatos em Malacacheta, numa <strong>época</strong> em
+      que a política ainda não era remunerada. Herdou dele a sensibilidade para
+      ouvir as pessoas simples e a vontade de lutar por quem mais precisa.
     </>,
 
     <>
-      Hoje, e <strong>pre-candidato a deputado estadual</strong> pelo{" "}
-      <strong>PDT</strong> em Minas Gerais, defendendo uma politica construida
-      pelo <strong>dialogo</strong>, conectada com a vida real e com as
-      transformacoes que nascem das periferias, das escolas e das comunidades.
+      Hoje, é <strong>pré-candidato a deputado estadual</strong> pelo{" "}
+      <strong>PDT</strong> em Minas Gerais, defendendo uma{" "}
+      <strong>política construída pelo diálogo</strong>, conectada com a vida
+      real e com as <strong>transformações</strong> que nascem das periferias,
+      das escolas e das comunidades.
     </>,
 
     <>
@@ -120,7 +126,7 @@ export default function Historia() {
           />
 
           <h2 className="text-subtitle font-semibold font-heading">
-            Minha historia comeca como a de muita gente.
+            Minha história começa como a de muita gente.
           </h2>
 
           <div className="text-body text-neutral-white/90 font-body">
