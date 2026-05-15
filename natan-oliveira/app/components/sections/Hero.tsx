@@ -125,7 +125,7 @@ export default function Hero() {
         />
 
         <p className="text-caption font-body mt-2 max-w-[260px] text-white/85 sm:hidden">
-          Professor, bibliotecario e vereador de Nova Serrana/MG.
+          Professor, bibliotecário e vereador de Nova Serrana/MG.
         </p>
 
         {/*
@@ -260,7 +260,7 @@ export default function Hero() {
 
       {/* Texto rodapé — desktop only */}
       <p className="text-caption font-body absolute bottom-2 left-1/2 hidden w-[90%] -translate-x-1/2 text-center font-semibold tracking-wide text-white sm:block">
-        Professor, bibliotecario, vereador de Nova Serrana/MG e pre-candidato a
+        Professor, bibliotecario, vereador de Nova Serrana/MG e pré-candidato a
         deputado estadual por Minas Gerais.
       </p>
     </section>
