@@ -32,7 +32,7 @@ export default function RedesSociais() {
     >
       <div className="section-inner flex flex-col items-center gap-6 [@media(max-height:500px)]:pt-20">
         <Image
-          src="/images/RedesSociaisTitle.png"
+          src="/images/RedesSociaisTitle.webp"
           alt="Minhas redes sociais"
           width={520}
           height={160}

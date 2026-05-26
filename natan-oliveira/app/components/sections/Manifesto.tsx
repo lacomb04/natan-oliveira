@@ -151,7 +151,7 @@ export default function Manifesto() {
     >
       <div className="section-inner flex flex-col items-center gap-4 text-center">
         <Image
-          src="/images/manifestoTitle.png"
+          src="/images/manifestoTitle.webp"
           alt="Manifesto"
           width={520}
           height={160}

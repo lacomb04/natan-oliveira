@@ -8,7 +8,7 @@ export default function Trajetoria() {
       <div className="section-inner flex flex-col gap-6">
         <div className="flex w-full justify-center">
           <Image
-            src="/images/MinhaTragetoria.png"
+            src="/images/MinhaTragetoria.webp"
             alt="Conheca minha trajetoria"
             width={520}
             height={160}

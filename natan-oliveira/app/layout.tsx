@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     "Página de pre-campanha de Natan Oliveira para Deputado Estadual do Minas Gerais",
   icons: {
-    icon: "/icon.png",
+    icon: "/favicon.png",
     shortcut: "/favicon.ico",
     apple: "/apple-icon.png",
   },

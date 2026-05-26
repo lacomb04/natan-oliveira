@@ -17,7 +17,7 @@ const news: NewsItem[] = [
       "Natan Oliveira Vozes é eleito vereador em Nova Serrana com proposta de renovação e voz popular",
     subtitle: "Perfil do Vereador Eleito Natan Oliveira Vozes ",
     source: "O Tempo",
-    logoSrc: "/images/OTempo.jpg",
+    logoSrc: "/images/OTempo.webp",
     logoAlt: "Logo O Tempo",
     href: "https://www.otempo.com.br/eleicoes/2024/candidatos/minas-gerais/nova-serrana/vereador/natan-oliveira-vozes-12000",
   },
@@ -27,7 +27,7 @@ const news: NewsItem[] = [
     subtitle:
       "Natan Oliveira projeta 2026: Vereador de Nova Serrana revela planos e critica extremismo",
     source: "Portal Gerais",
-    logoSrc: "/images/logoPortalGeral.png",
+    logoSrc: "/images/logoPortalGeral.webp",
     logoAlt: "Logo Portal Gerais",
     href: "https://portalgerais.com/natan-oliveira-projeta-2026-vereador-de-nova-serrana-revela-planos-e-critica-extremismo/",
   },
@@ -41,7 +41,7 @@ export default function Noticias() {
     >
       <div className="section-inner flex flex-col items-center gap-8">
         <Image
-          src="/images/noticiasTitle.png"
+          src="/images/noticiasTitle.webp"
           alt="Veja algumas noticias sobre o nosso trabalho"
           width={640}
           height={120}

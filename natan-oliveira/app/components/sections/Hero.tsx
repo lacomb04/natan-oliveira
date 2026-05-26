@@ -214,7 +214,7 @@ export default function Hero() {
             loading="lazy"
           />
         </a>
-        <a
+        {/* <a
           className="rounded-full bg-white/15 p-3 transition hover:bg-brand-blue/90"
           href="https://www.tiktok.com/@natan_oliveira12?_r=1&_t=ZS-96HMXCLQMh6"
           aria-label="TikTok"
@@ -227,7 +227,7 @@ export default function Hero() {
             className="h-5 w-5"
             loading="lazy"
           />
-        </a>
+        </a> */}
         <a
           className="rounded-full bg-white/15 p-3 transition hover:bg-brand-blue/90"
           href="https://youtube.com/@nattannoliveira?si=ZYn2Q06gA50pq2VH"

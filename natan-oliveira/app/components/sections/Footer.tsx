@@ -21,11 +21,11 @@ const socials = [
     href: "https://youtube.com/@nattannoliveira?si=ZYn2Q06gA50pq2VH",
     icon: "/icons/youtube.svg",
   },
-  {
-    name: "TikTok",
-    href: "https://www.tiktok.com/@natan_oliveira12?_r=1&_t=ZS-96HMXCLQMh6",
-    icon: "/icons/tiktok.svg",
-  },
+  // {
+  //   name: "TikTok",
+  //   href: "https://www.tiktok.com/@natan_oliveira12?_r=1&_t=ZS-96HMXCLQMh6",
+  //   icon: "/icons/tiktok.svg",
+  // },
 ];
 
 export default function Footer() {
@@ -34,7 +34,7 @@ export default function Footer() {
       <div className="section-inner flex flex-col gap-10 md:flex-row md:items-center md:justify-between">
         <div className="flex flex-col items-center gap-4 md:items-start">
           <Image
-            src="/images/Logos diferente cores-04.png"
+            src="/images/Logos diferente cores-04.webp"
             alt="Logo Natan Oliveira"
             width={240}
             height={160}

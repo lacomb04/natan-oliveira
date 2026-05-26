@@ -118,7 +118,7 @@ export default function Historia() {
       <div className="section-inner flex flex-col items-center gap-8 lg:flex-row lg:items-start lg:justify-between">
         <div className="flex w-full max-w-[680px] flex-col items-center gap-4 text-left">
           <Image
-            src="/images/conhecaMinhaHistoriaTitle.png"
+            src="/images/conhecaMinhaHistoriaTitle.webp"
             alt="Conheca minha historia"
             width={640}
             height={50}
@@ -167,7 +167,7 @@ export default function Historia() {
 
         <div className="flex w-full justify-center lg:w-auto lg:justify-end">
           <Image
-            src="/images/logoAmarelaSlogan.png"
+            src="/images/logoAmarelaSlogan.webp"
             alt="Logo historia"
             width={220}
             height={220}
