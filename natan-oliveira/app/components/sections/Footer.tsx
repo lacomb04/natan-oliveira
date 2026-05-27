@@ -13,7 +13,7 @@ const socials = [
   },
   {
     name: "WhatsApp",
-    href: "https://wa.me/5537991242690",
+    href: "https://chat.whatsapp.com/FgriBxdac2yLjWprYJMAcm?mode=gi_t",
     icon: "/icons/whatsapp.png",
   },
   {

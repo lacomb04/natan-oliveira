@@ -92,7 +92,7 @@ export default function HeroNav() {
           </a>
           <a
             className="rounded-full bg-white/10 p-2 transition hover:bg-brand-blue/90"
-            href="https://wa.me/5537991242690"
+            href="https://chat.whatsapp.com/FgriBxdac2yLjWprYJMAcm?mode=gi_t"
             aria-label="WhatsApp"
             rel="noreferrer"
             target="_blank"

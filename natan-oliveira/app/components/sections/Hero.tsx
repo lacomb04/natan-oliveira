@@ -135,16 +135,19 @@ export default function Hero() {
         */}
         <a
           className="
-            btn mt-2 text-xs
+            btn-hero mt-2 animate-pulse-glow text-xs
             sm:text-sm
-            [@media(max-height:760px)]:mt-0 [@media(max-height:760px)]:text-[12px]
-            [@media(max-height:760px)]:px-3 [@media(max-height:760px)]:py-1.5
+            [@media(max-height:760px)]:mt-0 [@media(max-height:760px)]:text-[13px]
+            [@media(max-height:760px)]:px-4 [@media(max-height:760px)]:py-2
             [@media(max-height:600px)]:scale-95
             [@media(max-height:520px)]:scale-90
           "
-          href="#trajetoria"
+          href="https://apoie.natannoliveira.com.br/"
         >
-          Conheça minha Trajetória
+          <svg className="h-4 w-4 sm:h-5 sm:w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+          </svg>
+          Fortaleça essa caminhada
         </a>
       </div>
 
@@ -244,7 +247,7 @@ export default function Hero() {
         </a>
         <a
           className="rounded-full bg-white/15 p-3 transition hover:bg-brand-blue/90"
-          href="https://wa.me/5537991242690"
+          href="https://chat.whatsapp.com/FgriBxdac2yLjWprYJMAcm?mode=gi_t"
           aria-label="WhatsApp"
           rel="noreferrer"
           target="_blank"
