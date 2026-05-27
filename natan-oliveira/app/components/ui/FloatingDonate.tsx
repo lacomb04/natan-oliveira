@@ -7,7 +7,16 @@ export default function FloatingDonate() {
 
   useEffect(() => {
     const onScroll = () => {
-      setVisible(window.scrollY > window.innerHeight * 0.8);
+      const footer = document.querySelector("footer");
+      if (!footer) {
+        setVisible(window.scrollY > window.innerHeight * 0.8);
+        return;
+      }
+      const footerTop = footer.getBoundingClientRect().top;
+      const windowH = window.innerHeight;
+      const pastHero = window.scrollY > window.innerHeight * 0.8;
+      const notAtFooter = footerTop > windowH + 80;
+      setVisible(pastHero && notAtFooter);
     };
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
