@@ -1,30 +1,22 @@
 @import "tailwindcss";
 
-/* Fontes locais */
-@font-face {
-  font-family: "Genty Sans";
-  src: url("/fonts/genty-sans-regular.otf") format("opentype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
 /* Tokens de design */
 @theme {
   /* Cores */
   --color-brand-blue: #0948b2;
   --color-brand-blue-dark: #0e00ff;
   --color-brand-yellow: #ffd821;
+  --color-brand-red: #e11d2e;
   --color-neutral-white: #ffffff;
   --color-neutral-gray: #f5f5f5;
 
   /* Fontes */
-  --font-sans:
-    "Genty Sans", var(--font-nunito), system-ui, -apple-system, "Segoe UI",
+  --font-sans: "Inter", var(--font-inter), system-ui, -apple-system, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, "Noto Sans";
-  --font-heading: "Genty Sans", system-ui, -apple-system, "Segoe UI", Roboto;
+  --font-heading: "Inter", var(--font-inter), system-ui, -apple-system,
+    "Segoe UI", Roboto;
   --font-body:
-    var(--font-nunito), system-ui, -apple-system, "Segoe UI", Roboto,
+    var(--font-inter), system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial;
 
   /* Tipografia */

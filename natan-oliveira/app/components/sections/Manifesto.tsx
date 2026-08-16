@@ -150,13 +150,9 @@ export default function Manifesto() {
       className="section min-h-[50vh] bg-brand-blue text-neutral-white"
     >
       <div className="section-inner flex flex-col items-center gap-4 text-center">
-        <Image
-          src="/images/manifestoTitle.webp"
-          alt="Manifesto"
-          width={520}
-          height={160}
-          className="h-auto w-full max-w-[420px]"
-        />
+        <h2 className="text-title font-extrabold uppercase tracking-wide text-neutral-white font-heading">
+          Manifesto
+        </h2>
 
         <div className="text-body max-w-3xl text-left text-neutral-white/90 font-body [@media(max-height:500px)]:pb-20">
           {visibleParagraphs.map((paragraph, index) => (

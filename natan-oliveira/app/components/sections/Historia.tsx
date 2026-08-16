@@ -117,13 +117,9 @@ export default function Historia() {
     >
       <div className="section-inner flex flex-col items-center gap-8 lg:flex-row lg:items-start lg:justify-between">
         <div className="flex w-full max-w-[680px] flex-col items-center gap-4 text-left">
-          <Image
-            src="/images/conhecaMinhaHistoriaTitle.webp"
-            alt="Conheca minha historia"
-            width={640}
-            height={50}
-            className="h-auto w-full max-w-[520px]"
-          />
+          <h2 className="text-title font-extrabold uppercase tracking-wide text-neutral-white font-heading">
+            Conheça Minha História
+          </h2>
 
           <h2 className="text-subtitle font-semibold font-heading">
             Minha história começa como a de muita gente.
@@ -166,13 +162,6 @@ export default function Historia() {
         </div>
 
         <div className="flex w-full justify-center lg:w-auto lg:justify-end">
-          <Image
-            src="/images/logoAmarelaSlogan.webp"
-            alt="Logo historia"
-            width={220}
-            height={220}
-            className="h-auto w-[clamp(140px,24vw,220px)]"
-          />
         </div>
       </div>
     </section>

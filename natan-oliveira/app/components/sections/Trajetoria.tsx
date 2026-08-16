@@ -11,13 +11,9 @@ export default function Trajetoria() {
     <section id="trajetoria" className="section min-h-[50vh] bg-brand-yellow">
       <div className="section-inner flex flex-col gap-6">
         <div className="flex w-full justify-center">
-          <Image
-            src="/images/MinhaTragetoria.webp"
-            alt="Conheca minha trajetoria"
-            width={520}
-            height={160}
-            className="h-auto w-full max-w-[420px]"
-          />
+          <h2 className="text-title font-extrabold uppercase tracking-wide text-brand-blue font-heading">
+            Minha Trajetória
+          </h2>
         </div>
 
         <div className="flex w-full flex-col items-start gap-4">

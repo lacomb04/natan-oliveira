@@ -40,13 +40,9 @@ export default function Noticias() {
       className="section min-h-[50vh] bg-neutral-gray pt-16 text-brand-blue"
     >
       <div className="section-inner flex flex-col items-center gap-8">
-        <Image
-          src="/images/noticiasTitle.webp"
-          alt="Veja algumas noticias sobre o nosso trabalho"
-          width={640}
-          height={120}
-          className="h-auto w-full max-w-[480px]"
-        />
+        <h2 className="text-title font-extrabold uppercase tracking-wide text-brand-blue font-heading">
+          Notícias
+        </h2>
 
         <div className="grid w-full gap-4 md:grid-cols-2">
           {news.map((item) => (

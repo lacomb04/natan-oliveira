@@ -34,14 +34,14 @@ export default function Footer() {
       <div className="section-inner flex flex-col gap-10 md:flex-row md:items-center md:justify-between">
         <div className="flex flex-col items-center gap-4 md:items-start">
           <Image
-            src="/images/Logos diferente cores-04.webp"
+            src="/images/logo-footer.png"
             alt="Logo Natan Oliveira"
             width={240}
             height={160}
             className="h-auto w-[200px] md:w-[220px]"
           />
           <p className="text-caption text-neutral-white/85 font-body">
-            Cidade Nova Serrana, MG
+            CNPJ 68.437.710/0001-17
           </p>
         </div>
 
