@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useRef } from "react";
-import Image from "next/image";
 
 export default function Historia() {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -161,8 +160,13 @@ export default function Historia() {
           </button>
         </div>
 
-        <div className="flex w-full justify-center lg:w-auto lg:justify-end">
-        </div>
+<blockquote
+            className="flex w-full items-end lg:w-auto lg:justify-end pt-2 pl-6 border-l-4 border-brand-yellow bg-brand-blue/20"
+          >
+            <p className="text-lg font-semibold text-neutral-white/90">
+              &apos;Quem não esquece de onde veio, sabe por quem deve trabalhar&apos;
+            </p>
+          </blockquote>
       </div>
     </section>
   );

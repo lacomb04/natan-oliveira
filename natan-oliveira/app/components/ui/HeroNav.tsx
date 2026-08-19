@@ -3,10 +3,10 @@
 import * as React from "react";
 
 const navLinks = [
+  { id: "livro", label: "BAIXE O LIVRO" },
   { id: "historia", label: "CONHEÇA MINHA HISTÓRIA" },
   { id: "manifesto", label: "LEIA O MANIFESTO" },
   { id: "trajetoria", label: "MINHA TRAJETÓRIA" },
-  { id: "noticias", label: "NOTÍCIAS" },
   { id: "redes-sociais", label: "REDES SOCIAIS" },
 ];
 
