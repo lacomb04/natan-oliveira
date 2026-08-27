@@ -130,13 +130,12 @@ export default function Manifesto() {
     </>,
 
     <>
-      E é por isso que <strong>Natan Oliveira</strong> é{" "}
-      <strong>pré-candidato a deputado estadual</strong>. Para fazer ecoar a voz
+      E é por isso que <strong>Natan Oliveira</strong> é <strong>candidato a deputado estadual</strong>. Para fazer ecoar a voz
       do nosso povo. Para transformar nosso sonho em realidade!
     </>,
 
     <>
-      Porque de onde a gente vem <strong>importa</strong>!
+      Porque Origem Importa!
     </>,
   ];
 

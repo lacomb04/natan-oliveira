@@ -10,7 +10,7 @@ export default function Hero() {
 
       {/* MOBILE */}
       <Image
-        src="/images/banner-hero-mobile.png"
+        src="/images/ImagemHero_mobile.webp"
         alt="Natan Oliveira"
         width={1080}
         height={1920}
@@ -20,7 +20,7 @@ export default function Hero() {
 
       {/* DESKTOP */}
       <Image
-        src="/images/banner-hero-desktop.png"
+        src="/images/ImagemHero-Descktop.webp"
         alt="Natan Oliveira"
         width={1920}
         height={1080}

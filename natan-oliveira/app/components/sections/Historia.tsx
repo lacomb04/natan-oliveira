@@ -92,17 +92,17 @@ export default function Historia() {
       ouvir as pessoas simples e a vontade de lutar por quem mais precisa.
     </>,
 
-    <>
-      Hoje, é <strong>pré-candidato a deputado estadual</strong> pelo{" "}
-      <strong>PDT</strong> em Minas Gerais, defendendo uma{" "}
-      <strong>política construída pelo diálogo</strong>, conectada com a vida
-      real e com as <strong>transformações</strong> que nascem das periferias,
-      das escolas e das comunidades.
-    </>,
+<>
+        Hoje é <strong>candidato a deputado estadual</strong> pelo{" "}
+        <strong>PDT</strong> em Minas Gerais, defendendo uma{" "}
+        <strong>política construída pelo diálogo</strong>, conectada com a vida
+        real e com as <strong>transformações</strong> que nascem das periferias,
+        das escolas e das comunidades.
+      </>,
 
-    <>
-      Porque de onde a gente vem <strong>importa</strong>.
-    </>,
+<>
+        Porque Origem Importa.
+      </>,
   ];
 
   const visibleParagraphs = paragraphs.slice(0, 2);
