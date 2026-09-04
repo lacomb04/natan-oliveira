@@ -1,2 +1,2 @@
 # natan-oliveira
-Projeto de pre-campanha Natan Oliveira 
+Projeto de campanha Natan Oliveira 
