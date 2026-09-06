@@ -12,7 +12,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Natan Oliveira",
   description:
-    "Página de pre-campanha de Natan Oliveira para Deputado Estadual do Minas Gerais",
+    "Página de campanha do candidato Natan Oliveira para Deputado Estadual de Minas Gerais",
   icons: {
     icon: "/favicon.png",
     shortcut: "/favicon.ico",
